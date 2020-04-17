@@ -15,8 +15,7 @@ const IndexPage = () => (
         <p>Now go build something great.</p>
         <a href="/page-2/">Watch the video</a>
       </div>
-    </div>
-    
+    </div>    
   </div>
 )
 
