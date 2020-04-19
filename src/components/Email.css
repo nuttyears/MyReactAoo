@@ -1,0 +1,110 @@
+.EmailContent {
+  z-index:10;
+  background-color: white;
+  margin: auto;
+  width: 560px;
+  height: 560px;
+  border-radius: 8px;
+  margin-top: -160px;
+}
+
+.EmailHeadline {
+  margin:0 auto;
+}
+
+.EmailHeadline p{
+  margin: 0;
+  padding-top: 8px;
+  text-align: center;
+  font-size:16px;
+  font-family: SF Pro Text;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.0032em;
+}
+
+.EmailHeadline h5{
+  margin: 8px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 25px;
+  letter-spacing: 0.0038em;
+  font-family: SF Pro Display;
+}
+
+.EmailImage {
+  background-image: url('../images/media-sharing.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.EmailUser {
+  margin: 24px auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+
+.EmailUser p {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.EmailUserImage {
+  background-image: url('../images/user.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  margin: 0 auto;
+  /* padding-top: 24px; */
+}
+
+.EmailUser h3{
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  /* Icon (Light Themes): background-icon */
+  color: #0F0F0F;
+  margin: 0px;
+  padding-top: 8px;
+}
+
+.EmailUser h4{
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  /* Text: Body & Label / text-color-light */
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0px;
+  padding-top: 8px;
+}
+
+.EmailUser a{
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+}
